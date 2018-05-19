@@ -369,26 +369,61 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\pol_factions_strip.tga"
 		noOfFrames = 4
 	}
-
+#-------------- National Socialism --------------------------------------------------
 	spriteType = {
-		name = "GFX_ideology_reactionary_group"
-		texturefile = "gfx/interface/ideologies/reactionary_group.dds"
+		name = "GFX_ideology_national_socialist_group"
+		texturefile = "gfx/interface/ideologies/NS_group.dds"
+	}
+#-------------- Fascism --------------------------------------------------
+	spriteType = {
+		name = "GFX_ideology_fascist_group"
+		texturefile = "gfx/interface/ideologies/FA_group.dds"
+	}
+#-------------- Paternal Autocrat --------------------------------------------------
+	spriteType = {
+		name = "GFX_ideology_paternal_autocrat_group"
+		texturefile = "gfx/interface/ideologies/PA_group.dds"
+	}
+	
+	
+#-------------- Social Conservatism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_conservative_group"
+		texturefile = "gfx/interface/ideologies/SC_group.dds"
+	}
+#-------------- Market Liberalism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/ML_group.dds"
+	}
+#-------------- Social Liberalism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_liberal_group"
+		texturefile = "gfx/interface/ideologies/SL_group.dds"
+	}
+#-------------- Social Democracy --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/SD_group.dds"
 	}	
 	
-	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
-	}
 	
-	spriteType = {
-		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism_group.dds"
-	}
 	
+#-------------- Stalinism --------------------------------------------------	
 	spriteType = {
-		name = "GFX_ideology_socialist_group"
-		texturefile = "gfx/interface/ideologies/socialist_group.dds"
+		name = "GFX_ideology_stalinist_group"
+		texturefile = "gfx/interface/ideologies/ST_group.dds"
 	}
+#-------------- Leninism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_leninist_group"
+		texturefile = "gfx/interface/ideologies/LE_group.dds"
+	}	
+#-------------- Left Wing Radicalism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_left_wing_radical_group"
+		texturefile = "gfx/interface/ideologies/LWR_group.dds"
+	}	
 	
 	spriteType = {
 		name = "GFX_ideology_populism_group"
@@ -396,23 +431,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_progressive_group"
-		texturefile = "gfx/interface/ideologies/progressive_group.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_ideology_nationalism_ideology_group"
 		texturefile = "gfx/interface/ideologies/nationalism_ideology_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_liberalism_ideology_group"
-		texturefile = "gfx/interface/ideologies/liberalism_ideology_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_conservatism_ideology_group"
-		texturefile = "gfx/interface/ideologies/conservatism_ideology_group.dds"
 	}
 	
 	spriteType = {
