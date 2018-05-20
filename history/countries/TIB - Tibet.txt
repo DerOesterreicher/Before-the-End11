@@ -50,67 +50,142 @@ set_technology = {
 
 set_politics = {
 
-	parties = {
-		democratic = { 
-			popularity = 0
+		parties = {	
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 51.12 }	
+			nationalist = { popularity = 12.21 }	
+			populist = { popularity = 0 }		
+			conservative = { popularity = 3.33 }		
+			liberal = { popularity = 5.21 }		
+			social_democrat = { popularity = 21.11 }		
+			left_wing_radical = { popularity = 1.12 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 5.90 }	
 		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Jamphel Yeshe Gyaltsen"
+	name = "Ngapoi Ngawang Jigme"
 	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+	picture = "Portrait_Tibet_Ngapoi_Ngawang_Jigme.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = clerical_fascism
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
-	
-	ruling_party = neutrality
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+create_country_leader = {
+	name = "Tashi Wangdi"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Tashi_Wangdi.dds"
+	expire = "1965.1.1"
+	ideology = nationalism
+	traits = {
+		#
 	}
 }
+
+create_country_leader = {
+	name = "Tenzin Gyatso"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Tenzin_Gyatso.dds"
+	expire = "1965.1.1"
+	ideology = monarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lobsang Tenzin"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Lobsang_Tenzin.dds"
+	expire = "1965.1.1"
+	ideology = right_wing_populism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Lobsang Sangay"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Lobsang_Sangay.dds"
+	expire = "1965.1.1"
+	ideology = market_social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tashi Wangdu"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Tashi_Wangdu.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gyalo Thondup"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Gyalo_Thondup.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Juchen Thubten Namgyal"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Juchen_Thubten_Namgyal.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "He Luli"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_He_Luli.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Legqog"
+	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+	picture = "Portrait_Tibet_Legqog.dds"
+	expire = "1965.1.1"
+	ideology = maoism
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "Jamphel Yeshe Gyaltsen"
+#	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+#	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+#	expire = "1965.1.1"
+#	ideology = monarchism
+#	traits = {
+#		#
+#	}
+#}

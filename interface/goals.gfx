@@ -1302,5 +1302,10 @@ spriteTypes = {
 		name = "GFX_SOV_remove_perestroika_glasnost"
 		texturefile = "gfx/interface/goals/SOV_remove_perestroika_glasnost.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_JAP_go_democratic"
+		texturefile = "gfx/interface/goals/JAP_go_democratic.dds"
+	}
 
 }

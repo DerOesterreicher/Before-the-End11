@@ -51,63 +51,131 @@ set_technology = {
 
 set_politics = {
 
-	parties = {
-		democratic = { 
-			popularity = 0
-			banned = yes
+		parties = {	
+			fascist = { popularity = 24.23 }		
+			paternal_autocrat = { popularity = 25.91 }	
+			nationalist = { popularity = 1.12 }	
+			populist = { popularity = 4.44 }		
+			conservative = { popularity = 0.91 }		
+			liberal = { popularity = 21.11 }		
+			social_democrat = { popularity = 1.12 }		
+			left_wing_radical = { popularity = 2.22 }		
+			leninist = { popularity = 9.47 }		
+			stalinist = { popularity = 9.47 }	
 		}
-
-		fascism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
-		}
-	}
 	
-	ruling_party = communism
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sheng Shicai"
+	name = "Abu Rida al-Turkestani"
 	desc = "POLITICS_SHENG_SHICAI_DESC"
-	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Abu_Rida_al_Turkestani.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = clerical_fascism
 	traits = {
 		#
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
+create_country_leader = {
+	name = "Abdul'ahat Abdulrixit"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Abdulahat_Abdulrixit.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
 
-		parties = {
-			democratic = { 
-				popularity = 0
-				banned = yes
-			}
+create_country_leader = {
+	name = "Ismail Tiliwaldi"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Ismail_Tiliwaldi.dds"
+	expire = "1965.1.1"
+	ideology = nationalism
+	traits = {
+		#
+	}
+}
 
-			fascism = {
-				popularity = 0
-				banned = yes
-			}
-			
-			communism = {
-				popularity = 100
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
+create_country_leader = {
+	name = "Saifuddin Azizi"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Saifuddin_Azizi.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_populism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Nur Bekri"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Nur_Bekri.dds"
+	expire = "1965.1.1"
+	ideology = market_social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kahar Barat"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Kahar_Barat.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shohrat Zakir"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Shohrat_Zakir.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ilham Tohti"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Ilham_Tohti.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Yusupbek Mukhlisi"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Yusupbek_Muhlisi.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Han Liang"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Han_Liang.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
 	}
 }
