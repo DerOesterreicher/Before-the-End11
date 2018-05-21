@@ -28,9 +28,6 @@ state={
 			7014 10
 		}
 
-		1938.10.25 = {
-			controller = JAP
-		}
 	}
 
 	provinces={

@@ -15,46 +15,21 @@ set_technology = {
 }
 
 set_politics = {
-	parties = {
-		populism = { 
-			popularity = 10
+
+		parties = {	
+			fascist = { popularity = 0.67 }		
+			paternal_autocrat = { popularity = 0 }	
+			nationalism_ideology = { popularity = 0 }	
+			populist = { popularity = 17.23 }		
+			conservative = { popularity = 39.69 }		
+			liberal = { popularity = 0.19 }		
+			social_democrat = { popularity = 36.59 }		
+			left_wing_radical = { popularity = 4.91 }		
+			leninist = { popularity = 0.35 }		
+			stalinist = { popularity = 0.35 }	
 		}
-		
-		nationalism_ideology = { 
-			popularity = 2
-		}
-		
-		conservatism_ideology = { 
-			popularity = 44
-		}
-		
-		liberalism_ideology = { 
-			popularity = 0
-		}
-		
-		socialist = { 
-			popularity = 40
-		}
-		
-		communism = {
-			popularity = 0
-		}
-		
-		progressive = { 
-			popularity = 4
-		}
-		
-		fascism = { 
-			popularity = 0
-		}
-		
-		reactionary = { 
-			popularity = 0
-		}
-		
-	}
 	
-	ruling_party = conservatism_ideology
+	ruling_party = conservative
 	last_election = "1986.11.23"
 	election_frequency = 48
 	elections_allowed = no
@@ -79,7 +54,7 @@ create_country_leader = {
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Barbara_Rosenkranz.dds"
 	expire = "1965.1.1"
-	ideology = democratic_nationalism
+	ideology = nationalism
 	traits = {
 		#
 	}
@@ -90,7 +65,7 @@ create_country_leader = {
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Alois_Mock.dds"
 	expire = "1965.1.1"
-	ideology = christian_democracy
+	ideology = market_social_liberalism
 	traits = {
 		#
 	}
@@ -119,6 +94,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Mirko Messner"
+	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
+	picture = "Portrait_Austria_Mirko_Messner.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Walter Baier"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Walter_Baier.dds"
@@ -134,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Peter_Pilz.dds"
 	expire = "1965.1.1"
-	ideology = progressivism
+	ideology = left_wing_radicalism
 	traits = {
 		#
 	}
@@ -145,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Gerd_Honsik.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}

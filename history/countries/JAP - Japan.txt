@@ -86,22 +86,6 @@ create_import = {
 	complete_national_focus = extra_tech_focus
 	complete_national_focus = industrial_effort_focus
 	complete_national_focus = industrial_effort_focus2
-	declare_war_on = {
-		target = CHI
-		type = puppet_focus
-	}
-	#declare_war_on = {
-	#	target = GXC
-	#	type = puppet_focus
-	#}
-	#declare_war_on = {
-	#	target = YUN
-	#	type = puppet_focus
-	#}
-	#declare_war_on = {
-	#	target = PRC
-	#	type = annex_everything
-	#}
 	oob = "JAP_1939"
 	set_technology = {
 
@@ -155,30 +139,6 @@ create_import = {
 }
 
 set_convoys = 400
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		set_autonomy = {
-			target = MEN
-			autonomous_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = MAN
-			autonomous_state = autonomy_puppet
-		}
-	}
-}
 
 
 set_politics = {
