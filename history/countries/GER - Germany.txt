@@ -45,6 +45,8 @@ set_technology = {
 
 
 
+set_variable = { var = wehrmacht_anger value = 0 }
+set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 #TODO_WTT_CD: If stability effects in tree, lower this accordings
@@ -74,6 +76,8 @@ set_war_support = 0.3
 	oob = "GER_1939"
 
 #Trade
+	
+	set_variable = { var = GER_mefo_bill_counter value = 50 }
 
 	#BUILDINGS
 	
@@ -142,22 +146,46 @@ set_war_support = 0.3
 
 set_politics = {
 
-		parties = {	
-			fascist = { popularity = 0.61 }		
-			paternal_autocrat = { popularity = 0.25 }	
-			nationalism_ideology = { popularity = 0 }	
-			populist = { popularity = 1.36 }		
-			conservative = { popularity = 48.07 }		
-			liberal = { popularity = 10.06 }		
-			social_democrat = { popularity = 34.21 }		
-			left_wing_radical = { popularity = 5.11 }		
-			leninist = { popularity = 0.22 }		
-			stalinist = { popularity = 0.10 }	
+	parties = {
+		populism = { 
+			popularity = 1
 		}
 		
+		nationalism_ideology = { 
+			popularity = 0
+		}
+		
+		conservatism_ideology = { 
+			popularity = 49
+		}
+		
+		liberalism_ideology = { 
+			popularity = 6
+		}
+		
+		socialist = { 
+			popularity = 37
+		}
+		
+		communism = { 
+			popularity = 2
+		}
+		
+		progressive = { 
+			popularity = 5
+		}
+		
+		fascism = { 
+			popularity = 0
+		}
+		
+		reactionary = { 
+			popularity = 0
+		}
+		
+	}
 	
-	
-	ruling_party = conservative
+	ruling_party = conservatism_ideology
 	last_election = "1987.1.25"
 	election_frequency = 48
 	elections_allowed = no
@@ -197,7 +225,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Gerhard_Frey.dds"
 	expire = "1965.1.1"
-	ideology = nationalism
+	ideology = democratic_nationalism
 	traits = {
 	
 	}
@@ -208,7 +236,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Franz_Josef_Strauss.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = conservatism
 	traits = {
 	popular_figurehead
 	compassionate_gentleman
@@ -221,7 +249,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Hans_Dietrich_Genscher.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
+	ideology = liberalism
 	traits = {
 	staunch_constitutionalist
 	}
@@ -236,17 +264,6 @@ create_country_leader = {
 	traits = {
 	permanent_revolutionary
 	communism_sympathies
-	}
-}
-
-create_country_leader = {
-	name = "Helga Zepp-LaRouche"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Helga_Zepp_LaRouche.dds"
-	expire = "1965.1.1"
-	ideology = trotskyism
-	traits = {
-	permanent_revolutionary
 	}
 }
 
@@ -266,7 +283,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Joschka_Fischer.dds"
 	expire = "1965.1.1"
-	ideology = left_wing_radicalism
+	ideology = progressivism
 	traits = {
 	triumphant_revolutionary
 	appeaser
@@ -279,7 +296,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Adolf_von_Thadden.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism
+	ideology = nazism
 	traits = {
 	dictator
 	}

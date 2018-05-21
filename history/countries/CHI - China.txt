@@ -1,4 +1,4 @@
-﻿capital = 608 # Nanjing
+﻿capital = 613 # Nanjing
 
 oob = "CHI_1936"
 set_stability = 0.2
@@ -168,129 +168,72 @@ set_convoys = 40
 
 set_politics = {
 
-		parties = {	
-			fascist = { popularity = 3.92 }		
-			paternal_autocrat = { popularity = 15.51 }	
-			nationalist = { popularity = 51.22 }	
-			populist = { popularity = 2.23 }		
-			conservative = { popularity = 1.12 }		
-			liberal = { popularity = 12.51 }		
-			social_democrat = { popularity = 13.49 }		
-			left_wing_radical = { popularity = 0 }		
-			leninist = { popularity = 0 }		
-			stalinist = { popularity = 0 }	
+	parties = {
+		democratic = { 
+			popularity = 0
 		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
 	
-	ruling_party = nationalist
-	last_election = "1980.1.1"
+	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "James Soong"
+	name = "Chiang Kai-Shek"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_James_Soong.dds"
+	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
-	ideology = fascism
-	traits = {
-		dictator
-		inexperienced_imperialist
-		assassination_survivor
-		staunch_constitutionalist
-		fascist_sympathies
-	}
-}
-
-create_country_leader = {
-	name = "Aisin-Gioro Puren"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_Puren.dds"
-	expire = "1965.1.1"
-	ideology = monarchism
+	ideology = despotism
 	traits = {
 		generallissimo
 	}
 }
 
 create_country_leader = {
-	name = "Chiang Ching-kuo"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Chiang_Ching_kuo.dds"
+	name = "Zhang Guotao"
+	desc = "POLITICS_ZHANG_GUOTAO_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = nationalism
+	ideology = leninism
 	traits = {
-		generallissimo
+		cornered_fox
 	}
 }
 
 create_country_leader = {
-	name = "Chen Shui-bian"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Chen_Shui_bian.dds"
+	name = "Wang Jingwei"
+	desc = "POLITICS_WANG_JINGWEI_DESC"
+	picture = "GFX_portrait_chi_wang_jingwei"
 	expire = "1965.1.1"
-	ideology = left_wing_populism
+	ideology = fascism_ideology
 	traits = {
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Hau Pei-tsun"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Hau_Pei_tsun.dds"
+	name = "Zhang Lan" #WTT_TODO_CD: this guy is now a possible leader in communist china. Replace? Chiang should probably stay chairman if China goes democratic
+	desc = "POLITICS_ZHANG_LAN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = market_social_liberalism
+	ideology = socialism
 	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Wu Den-yih"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Wu_Den_yih.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Wang Youcai"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Wang_Youcai.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Lin Ruey-shiung"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Lin_Ruey_shiung.dds"
-	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Huang Kuo-chang"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Huang_Kuo_chang.dds"
-	expire = "1965.1.1"
-	ideology = trotskyism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Shih Ming-teh"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "Portrait_China_Shih_Ming_teh.dds"
-	expire = "1965.1.1"
-	ideology = maoism
-	traits = {
+		#
 	}
 }
 
