@@ -74,7 +74,7 @@ create_country_leader = {
 	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
 	picture = "Portrait_Tibet_Ngapoi_Ngawang_Jigme.dds"
 	expire = "1965.1.1"
-	ideology = clerical_fascism
+	ideology = fascism
 	traits = {
 		#
 	}
